@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BAC9FE17BE2ABC001814DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BAC9FD17BE2ABC001814DA /* UIKit.framework */; };
+		18BACA0017BE2ABC001814DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BAC9FF17BE2ABC001814DA /* Foundation.framework */; };
+		18BACA0217BE2ABC001814DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BACA0117BE2ABC001814DA /* CoreGraphics.framework */; };
+		18BACA0817BE2ABC001814DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BACA0617BE2ABC001814DA /* InfoPlist.strings */; };
+		18BACA0A17BE2ABC001814DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BACA0917BE2ABC001814DA /* main.m */; };
+		18BACA0E17BE2ABC001814DA /* JAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BACA0D17BE2ABC001814DA /* JAppDelegate.m */; };
+		18BACA1017BE2ABC001814DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BACA0F17BE2ABC001814DA /* Default.png */; };
+		18BACA1217BE2ABC001814DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BACA1117BE2ABC001814DA /* Default@2x.png */; };
+		18BACA1417BE2ABC001814DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BACA1317BE2ABC001814DA /* Default-568h@2x.png */; };
+		18BACA1717BE2ABC001814DA /* JViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BACA1617BE2ABC001814DA /* JViewController.m */; };
+		18BACA1A17BE2ABC001814DA /* JViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BACA1817BE2ABC001814DA /* JViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18BAC9FA17BE2ABC001814DA /* UInotebookyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UInotebookyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BAC9FD17BE2ABC001814DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18BAC9FF17BE2ABC001814DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18BACA0117BE2ABC001814DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18BACA0517BE2ABC001814DA /* UInotebookyo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UInotebookyo-Info.plist"; sourceTree = "<group>"; };
+		18BACA0717BE2ABC001814DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18BACA0917BE2ABC001814DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18BACA0B17BE2ABC001814DA /* UInotebookyo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UInotebookyo-Prefix.pch"; sourceTree = "<group>"; };
+		18BACA0C17BE2ABC001814DA /* JAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAppDelegate.h; sourceTree = "<group>"; };
+		18BACA0D17BE2ABC001814DA /* JAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAppDelegate.m; sourceTree = "<group>"; };
+		18BACA0F17BE2ABC001814DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18BACA1117BE2ABC001814DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18BACA1317BE2ABC001814DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18BACA1517BE2ABC001814DA /* JViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JViewController.h; sourceTree = "<group>"; };
+		18BACA1617BE2ABC001814DA /* JViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JViewController.m; sourceTree = "<group>"; };
+		18BACA1917BE2ABC001814DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BAC9F717BE2ABC001814DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BAC9FE17BE2ABC001814DA /* UIKit.framework in Frameworks */,
+				18BACA0017BE2ABC001814DA /* Foundation.framework in Frameworks */,
+				18BACA0217BE2ABC001814DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BAC9F117BE2ABC001814DA = {
+			isa = PBXGroup;
+			children = (
+				18BACA0317BE2ABC001814DA /* UInotebookyo */,
+				18BAC9FC17BE2ABC001814DA /* Frameworks */,
+				18BAC9FB17BE2ABC001814DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BAC9FB17BE2ABC001814DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BAC9FA17BE2ABC001814DA /* UInotebookyo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BAC9FC17BE2ABC001814DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BAC9FD17BE2ABC001814DA /* UIKit.framework */,
+				18BAC9FF17BE2ABC001814DA /* Foundation.framework */,
+				18BACA0117BE2ABC001814DA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18BACA0317BE2ABC001814DA /* UInotebookyo */ = {
+			isa = PBXGroup;
+			children = (
+				18BACA0C17BE2ABC001814DA /* JAppDelegate.h */,
+				18BACA0D17BE2ABC001814DA /* JAppDelegate.m */,
+				18BACA1517BE2ABC001814DA /* JViewController.h */,
+				18BACA1617BE2ABC001814DA /* JViewController.m */,
+				18BACA1817BE2ABC001814DA /* JViewController.xib */,
+				18BACA0417BE2ABC001814DA /* Supporting Files */,
+			);
+			path = UInotebookyo;
+			sourceTree = "<group>";
+		};
+		18BACA0417BE2ABC001814DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BACA0517BE2ABC001814DA /* UInotebookyo-Info.plist */,
+				18BACA0617BE2ABC001814DA /* InfoPlist.strings */,
+				18BACA0917BE2ABC001814DA /* main.m */,
+				18BACA0B17BE2ABC001814DA /* UInotebookyo-Prefix.pch */,
+				18BACA0F17BE2ABC001814DA /* Default.png */,
+				18BACA1117BE2ABC001814DA /* Default@2x.png */,
+				18BACA1317BE2ABC001814DA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BAC9F917BE2ABC001814DA /* UInotebookyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BACA1D17BE2ABC001814DA /* Build configuration list for PBXNativeTarget "UInotebookyo" */;
+			buildPhases = (
+				18BAC9F617BE2ABC001814DA /* Sources */,
+				18BAC9F717BE2ABC001814DA /* Frameworks */,
+				18BAC9F817BE2ABC001814DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UInotebookyo;
+			productName = UInotebookyo;
+			productReference = 18BAC9FA17BE2ABC001814DA /* UInotebookyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BAC9F217BE2ABC001814DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = J;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = diveinedu;
+			};
+			buildConfigurationList = 18BAC9F517BE2ABC001814DA /* Build configuration list for PBXProject "UInotebookyo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18BAC9F117BE2ABC001814DA;
+			productRefGroup = 18BAC9FB17BE2ABC001814DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BAC9F917BE2ABC001814DA /* UInotebookyo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BAC9F817BE2ABC001814DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BACA0817BE2ABC001814DA /* InfoPlist.strings in Resources */,
+				18BACA1017BE2ABC001814DA /* Default.png in Resources */,
+				18BACA1217BE2ABC001814DA /* Default@2x.png in Resources */,
+				18BACA1417BE2ABC001814DA /* Default-568h@2x.png in Resources */,
+				18BACA1A17BE2ABC001814DA /* JViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BAC9F617BE2ABC001814DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BACA0A17BE2ABC001814DA /* main.m in Sources */,
+				18BACA0E17BE2ABC001814DA /* JAppDelegate.m in Sources */,
+				18BACA1717BE2ABC001814DA /* JViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18BACA0617BE2ABC001814DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BACA0717BE2ABC001814DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18BACA1817BE2ABC001814DA /* JViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BACA1917BE2ABC001814DA /* en */,
+			);
+			name = JViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BACA1B17BE2ABC001814DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18BACA1C17BE2ABC001814DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BACA1E17BE2ABC001814DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UInotebookyo/UInotebookyo-Prefix.pch";
+				INFOPLIST_FILE = "UInotebookyo/UInotebookyo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18BACA1F17BE2ABC001814DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UInotebookyo/UInotebookyo-Prefix.pch";
+				INFOPLIST_FILE = "UInotebookyo/UInotebookyo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BAC9F517BE2ABC001814DA /* Build configuration list for PBXProject "UInotebookyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BACA1B17BE2ABC001814DA /* Debug */,
+				18BACA1C17BE2ABC001814DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BACA1D17BE2ABC001814DA /* Build configuration list for PBXNativeTarget "UInotebookyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BACA1E17BE2ABC001814DA /* Debug */,
+				18BACA1F17BE2ABC001814DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BAC9F217BE2ABC001814DA /* Project object */;
+}
