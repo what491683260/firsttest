@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JViewController : UIViewController
+@interface JViewController : UIViewController<UIActionSheetDelegate,UIAlertViewDelegate,NSCoding>
 
 @end
